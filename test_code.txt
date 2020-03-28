@@ -1,0 +1,36 @@
+#hash
+def function:{
+	repeat 2 times:{
+		print M
+		repeat 4 times:{
+			print A
+		}
+	}
+}
+def f2_:{
+	print 'f2_' called
+	function
+	f2_
+}
+up 5
+down 5
+left 5
+right 5
+turn_right 6984591
+turn_left 47490390
+penup
+pendown
+pencolor #AA696B
+bgcolor #AA696B
+pencolor reset
+bgcolor reset
+sprite s1.png
+sprite reset
+speed 0
+speed 9
+sethome 0,0
+home
+function
+f2_
+stamp
+image code.png
