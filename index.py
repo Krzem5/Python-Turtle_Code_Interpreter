@@ -162,7 +162,7 @@ def restart_shell(arg):
     shell['state']='disabled'
     resseted=True
     insert("""                                                    +----------------+
-                                                    |     TURTLEÂ®    |
+                                                    |     TURTLE®    |
                                                     +----------------+
 =============================================================================================================================""")
 def shell_reset():
@@ -257,11 +257,11 @@ global openfilename,savedfile,fsc,resseted,restartcnt,help_txt
 openfilename,savedfile,fsc,resseted,restartcnt,help_txt='Untitled',False,False,False,1,"""
 =============================================================================================================================
                                             +-----------------------------------+
-                                            |Help on TurtleÂ® v1.0 win32 edition.|
+                                            |Help on Turtle® v1.0 win32 edition.|
                                             +-----------------------------------+
 1) Introduction
-    TurtleÂ® is a simple programming launguage used to programm turtle's actions. It was born on (date) after
-    ('2018-01-15'-date) days of work which was created using Python. TurtleÂ® doesn't have many features.
+    Turtle® is a simple programming launguage used to programm turtle's actions. It was born on (date) after
+    ('2018-01-15'-date) days of work which was created using Python. Turtle® doesn't have many features.
     Here are some of them:
     - functions
     - 'for' loops
